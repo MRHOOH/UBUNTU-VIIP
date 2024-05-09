@@ -1,5 +1,7 @@
 #!/bin/bash
 #Get the necessary components
+
+cd $home
 apt-get update
 apt-get install udisks2 -y
 echo " " > /var/lib/dpkg/info/udisks2.postinst
