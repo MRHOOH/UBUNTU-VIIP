@@ -16,6 +16,7 @@ echo " YOUTUBE : MR.HOOH"
 echo " TIK TOK : MASTHAHOOH"
 sleep 9
 
+cd $home
 pkg install root-repo x11-repo
 pkg install proot pulseaudio -y
 termux-setup-storage
